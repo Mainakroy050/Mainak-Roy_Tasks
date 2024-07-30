@@ -23,15 +23,15 @@ MODIFY COLUMN phone_number VARCHAR(15);
 
 INSERT INTO students (first_name, last_name, email, phone_number, date_of_birth, grade)
 VALUES 
-('Pradhan', 'dads', 'john.doe@example.com', '4545458781', '2000-01-01', 'A'),
-('Pratyush', 'samanta', 'jane.smith@example.com', '566456455', '2001-02-02', 'B'),
-('Rahul', 'Mohanty', 'alice.jo@le.com', '6545646545', '2002-03-03', 'A');
+('Pradhan', 'dads', 'prad.h@example.com', '4545458781', '2000-01-01', 'A'),
+('Pratyush', 'samanta', 'praty.h@example.com', '566456455', '2001-02-02', 'B'),
+('Rahul', 'Mohanty', 'Rahul.j@le.com', '6545646545', '2002-03-03', 'A');
 
 INSERT INTO courses (course_name, course_description, credits)
 VALUES 
 ('Mathematics', 'Basic mathematics course', 3),
 ('English', 'English language', 4),
-('History', 'World history ', 3),
+('History', 'history ', 3),
 ('Biology', 'biology', 4),
 ('Computer Science', 'computer science', 3);
 
